@@ -18,7 +18,8 @@ import (
 
 	"github.com/aws/amazon-ec2-spot-interrupter/pkg/itn"
 	"github.com/aws/aws-sdk-go-v2/service/fis/types"
-)
+new file updated
+
 
 func Summary(experiment *types.Experiment) string {
 	// TODO: use a table lib to make this prettier
